@@ -1,5 +1,5 @@
 ---
-name: company-announcements
+name: claude-startup-config
 description: Configure companyAnnouncements in settings.json with workflow cheat sheets. Auto-detects your harness (ECC, OMCC, vanilla) and displays workflow reminders at session start.
 origin: claude-startup-cheatsheet
 ---
