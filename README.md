@@ -7,7 +7,7 @@
 Never forget which slash command to use. Auto-detects your harness (ECC, Oh My Claude Code, vanilla) and displays workflow cheat sheets as session-start banners.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/danny-seo/claude-code-cheatsheet/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/cskwork/claude-code-cheatsheet/pulls)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-blueviolet)](https://docs.anthropic.com/en/docs/claude-code)
 
 </div>
@@ -33,7 +33,7 @@ This skill writes compact workflow cheat sheets into your `companyAnnouncements`
 **One-liner (recommended):**
 
 ```bash
-git clone https://github.com/danny-seo/claude-code-cheatsheet.git /tmp/cc-cheatsheet && \
+git clone https://github.com/cskwork/claude-code-cheatsheet.git /tmp/cc-cheatsheet && \
   cp -r /tmp/cc-cheatsheet/skills/company-announcements ~/.claude/skills/ && \
   cp /tmp/cc-cheatsheet/commands/setup-announcements.md ~/.claude/commands/ && \
   rm -rf /tmp/cc-cheatsheet && \
@@ -44,7 +44,7 @@ git clone https://github.com/danny-seo/claude-code-cheatsheet.git /tmp/cc-cheats
 
 ```bash
 # 1. Clone
-git clone https://github.com/danny-seo/claude-code-cheatsheet.git
+git clone https://github.com/cskwork/claude-code-cheatsheet.git
 
 # 2. Copy skill + command
 cp -r claude-code-cheatsheet/skills/company-announcements ~/.claude/skills/
